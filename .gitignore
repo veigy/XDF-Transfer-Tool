@@ -6,6 +6,9 @@ __pycache__/
 # Binance soubory (velké a citlivé)
 *.bin
 
+# XDF soubory (velké a citlivé)
+*.XDF
+
 # Gemini / Antigravity data
 .gemini/
 
@@ -13,5 +16,3 @@ __pycache__/
 desktop.ini
 Thumbs.db
 
-# UI
-favicon.ico
