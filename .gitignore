@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Binance soubory (velké a citlivé)
+*.bin
+
+# Gemini / Antigravity data
+.gemini/
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# UI
+favicon.ico
