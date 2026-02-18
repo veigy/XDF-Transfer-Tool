@@ -401,11 +401,11 @@ class ME7TransferApp(QMainWindow):
             # 1. Basic info
             deep_info = ""
             if m.is_deep:
-                deep_info = f"<br/><font color='#fff'><b>Deep Match (Z):</b> +{m.deep_l}b vlevo, +{m.deep_r}b vpravo</font>"
+                deep_info = f"<br/><font color='#fff'><b>Deep Match (Z):</b> +{m.deep_l}b left, +{m.deep_r}b right</font>"
             if m.x_is_deep:
-                deep_info += f"<br/><font color='#fff'><b>Deep Match (X):</b> +{m.x_deep_l}b vlevo, +{m.x_deep_r}b vpravo</font>"
+                deep_info += f"<br/><font color='#fff'><b>Deep Match (X):</b> +{m.x_deep_l}b left, +{m.x_deep_r}b right</font>"
             if m.y_is_deep:
-                deep_info += f"<br/><font color='#fff'><b>Deep Match (Y):</b> +{m.y_deep_l}b vlevo, +{m.y_deep_r}b vpravo</font>"
+                deep_info += f"<br/><font color='#fff'><b>Deep Match (Y):</b> +{m.y_deep_l}b left, +{m.y_deep_r}b right</font>"
 
             map_markers = ""
             if m.is_deep: map_markers += " (deep)"
